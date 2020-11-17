@@ -1,0 +1,122 @@
+This post is `Xdedicated` to `Qdecoding`, `Kdefining`, and `Tdisplaying` jargon in hackmud. I am open to suggestions, feel free to ask questions, and help is definitely appreciated. Thanks.
+
+This post can also be found at `Cbbs`.`Lread` { `Npost`: `V"5gq565"` } in game.
+
+---
+
+`Abinmat`
+    A game in the form of a card game in hackmud discovered in the mallory_saves_fighting event. More information can be found on `Phttps://github.com/DrizzlyBear/binmat_rules`.
+
+`Abot brain`
+    A type of `Bupgrade` (cron_bot_vN) that when loaded on an inactive `Buser`, runs a `Bscript` periodically. Every time a bot brain runs a `Bscript`, you are charged `BGC`.
+
+`Abotnet`
+    A series of bot brains and/or `Boog bot`(s) that are able to interact with each other often being able to divy up jobs apropriately.
+
+`Abreach`
+    Solving all `Blocks `on a `Buser`. `BLocks` can be bypassed by either running `Fsys`.`Lbreach` yourself, or running a `Bscript` that calls `Fsys`.`Lbreach`.
+
+`Acall`
+    The action of running a `Bscript` either directly or through another `Bscript`.
+
+`Achannel`
+    A channel is a chat room where you can send and receive messages from other users. You can only see messages in channels that you are in (you can join channels with `Fchats`.`Ljoin`). When the player first escapes the `BvLAN`, they will be automatically joined to `V0000`. Other common channels include `Vtown` and `Vc00lest_kats`. Channels can be joined with `Fchats`.`Ljoin`, left with `Fchats`.`Lleave`, and created for free with `Fchats`.`Lcreate`.
+
+`Acorp`
+    Short for corporation. See https://hackmud.com/forums/corps/corp_reference (`Vsr4jun`).
+`Acorp rotation`
+    A period (around every 4 hours) when NPC corps change their password, projects, `Bloc`s, and `Bsector` (which requires `Bshift`ing).
+
+`Acorruption character`
+    Characters like "`x¡``y¢``GÁ``u¤``EÃ``F¦``G§``a¨``g©``Uª`".
+
+`Acracker`
+    A `Bscript` that automatically solves locks on a `Bloc`.
+
+`Acurloc`
+    The `Bloc` you are currently breaching. You can only access one `Bloc` per hardline.
+
+`Adecorrupter`
+    A `Bscript` that removes the `Bcorruption character`s from the output of another `Bscript`.
+
+`AGC`
+    The currency in-game. What it stands for is unknown.
+
+`Aglam`
+    A glam is a type of `Bupgrade` that servers no purpose other than to look nice. There are many types of glams with different names and they can also come in different colours just like normal upgrades.
+
+`Ainit`
+    Short for initialisation. Refers to upping the `Btier` of your `Buser` using `Fsys`.`Linit`.
+
+`Aloc`
+    Short for "location". A loc is a special `Bscript` that is automatically created when a `Buser` is `Binit`ialised that can be used to `Bbreach` the associated `Buser`. A loc cannot be deleted. Usually, when accessing a loc, you will be presented by `Block`s. On a `Btier` 1 NPC, solving all locks will cause it to `Bpop`. On other locs you will have to manually transfer `BGC` and `Bupgrade`s with an `Bupgrade`. You can use `Fsys`.`Lloc` to find your own loc.
+
+`Alock`
+    A lock is a type of `Bupgrade` used to defend your system from intruders. If you have 1 or more locks active, attackers will have to solve these locks first when accessing your `Bloc` (types of locks include EZ_21, c001, l0cket, etc). The answers to locks change around every hour and this is called a rotation. A rotation also resets your `Bbreach` state.
+
+`Alockstack`
+    All the locks on a `Buser`.
+
+`Amacro`
+    A player created shortcut for a script in the client. See https://hackmud.com/forums/general_discussion/macro_reference___guide (`V304yws`).
+
+`Aoog bot`
+    Short for out of game bot. Refers to bot running outside of hackmud interacting with hackmud.
+
+`Apoke`
+    An attempt to `Bbreach` a `Buser`.
+
+`Apop`
+    Refers to an NPC transferring `Bupgrade`s and `BGC` to a breacher before deleting itself. The "pop" name came about from the sound effect played after breaching a `Bloc`.
+
+`Asandbox`
+    The fair playing field within the game. Its borders are determined by the rules.
+
+`Asandboxy`
+    Describes something that either skirts or violates the boundaries of the `Bsandbox`.
+
+`Ascraper`
+    A `Bscript` that automatically retrieves information from a script, for example locs from an NPC `Bcorp`'s public `Bscript`.
+
+`Ascript`
+    A script is a command that users can run provided by trust or written by a player. trust scripts have an `Forange` `Buser` name and player scripts `Cgrey`. Scripts are separated into different `Bsecurity level`s. For information on trust scripts see https://hackmud.com/forums/new_players/the_trust_scripts___documentation_for__scripts_trust__scripts (`Vfvnc96`). On writing your own scripts see https://hackmud.com/forums/general_discussion/scripting_reference (`Vegzoa5`).
+
+`Asec level`
+    Short for security level. See https://hackmud.com/forums/new_players/staying_safe_with_seclevels__fork_ (`Vuhjtbg`).
+
+`Asector`
+    All public and non-hidden scripts are assigned to a sector. Sectors can be listed with `Fscripts`.`Lfullsec`, `Fscripts`.`Lhighsec`, etc. To view the scripts in a sector, you must join that sector's `Bchannel`, e.g. if you want to see the scripts in `lFORM_ALPHA_0`, you must join the chat `Bchannel` `lFORM_ALPHA_0`. After joining that sector's chat `Bchannel`, you can view the scripts in it with `Fscripts`.`L<seclevel>` { `Nsector`: `V"<sector>"` }.
+
+`Asentience`
+    Refers to players and a few exception NPCs.
+
+`Ashift`
+    The process that assigns a `Bscript` to a `Bsector`. Shifting a `Bscript` takes 15 minutes, and is required with any `Bsec level` change of a public `Bscript`, or when first making a `Bscript` public.
+
+`Asubscript`
+    A way of `Bcall`ing a `Bscript` inside another `Bscript`. The format is `c#``EX``cs.script.name(args)`, where `EX` is the `Bsec level` (`lf`/`l4`, `Jh`/`J3`, `Fm`/`F2`, `Dl`/`D1`, `dn`/`d0`). e.g. `c#fs.dtr.haunty_mall({ door: 1 })`.
+
+`Atier`
+    The level of a `Buser`, higher tier users have higher stats, but are more progressively more vulnerable to `Bsubscripts` and therefore scam scripts. Scripts ran on a tier 0 user can only access `lFULLSEC` `Bscript`s, on tier 1 down to `JHIGHSEC`, and on tier 4 all `Bsec levels`.
+
+`Auninit`
+    A not yet initialised system.
+
+`Aupgrade`
+    An item that can be loaded to do such things as accessing logs on ther users, to simply being able to have a `Bscript` you made be public.
+
+`Auser`
+    Refers to either an NPC or a player.
+
+`Ausnax`
+    `D(SPOILERS - highlight text to spoil)`
+    `zGray t1 upgrades that sort asciibetically before k3y_v1, for feeding to the t3 sn_w_usac lock.`
+    `D(END OF SPOILERS)`
+
+`AvLAN`
+    Refers to the tutorial stage of hackmud. The vLAN or virtual Local Area Network is the single player part of hackmud, users need to pass through vLAN before being qualified for the MUD. vLAN is composed of a story about Angie, Bo, Che, Mallory and the player who team up to escape into the MUD by solving various puzzles.
+
+---
+
+Thank you `C@``Ldtr``c#9893`, `C@``Ksybil``c#7258`, `C@``Fctx`, and `C@``Obobthebob` for the information, help, and suggestions.
+Check out `Ckaitlyn`.`Luseful_forum_posts` for other useful forum posts.
