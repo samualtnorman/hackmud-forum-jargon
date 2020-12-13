@@ -24,9 +24,6 @@ You might wanna use `CCtrl + F` on this one if you're on web, otherwise good luc
 `Acorp`
     Short for corporation. See https://hackmud.com/forums/corps/corp_reference (`Vsr4jun`).
 
-`Arotation`
-    Either refers to a `Bcorp` rotation, a period (around every 4 hours) when NPC corps change their password, projects, `Bloc`s, and `Bsector` (which requires `Bshift`ing). Or a `Block` rotation, a period around every hour where the answers to locks change A lock rotation also resets a user's `Bbreach` state.
-
 `Acorruption`
     When characters like "`x¡``y¢``GÁ``u¤``EÃ``F¦``G§``a¨``g©``Uª`" appear in a script. Scripts in old sectors can become corrupted over time and even start to leak other information unrelated to the script.
 
@@ -69,11 +66,17 @@ You might wanna use `CCtrl + F` on this one if you're on web, otherwise good luc
 `Aoog bot`
     Short for out of game bot. Refers to a bot running outside of hackmud interacting with the hackmud client.
 
+`Aopsec`
+    Short for operational security. People tend to say it when they or someone else accidentally leaks something.
+
 `Apoke`
     An attempt to `Bbreach` a `Buser`.
 
 `Apop`
     Refers to an NPC transferring `Bupgrade`s and `BGC` to a `Bbreach`er before deleting itself. The "pop" comes from the sound effect played after breaching a `Bloc`.
+
+`Arotation`
+    Either refers to a `Bcorp` rotation, a period (around every 4 hours) when NPC corps change their password, projects, `Bloc`s, and `Bsector` (which requires `Bshift`ing). Or a `Block` rotation, a period around every hour where the answers to locks change A lock rotation also resets a user's `Bbreach` state.
 
 `Asandbox`
     The fair playing field within the game. Its borders are determined by the rules.
