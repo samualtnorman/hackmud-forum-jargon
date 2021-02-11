@@ -109,7 +109,7 @@ You might wanna use `CCtrl + F` on this one if you're on web, otherwise good luc
     A way of `Bcall`ing a `Bscript` inside another script. The format is `c#<seclevel letter - ``lf``c/``l4``c, ``Jh``c/``J3``c, ``Fm``c/``F2``c, ``Dl``c/``D1``c, ``dn``c/``d0``c>s.script.name(args)` e.g. `c#fs.dtr.haunty_mall({ door: 1 })`.
 
 `Atier`
-    The level of a `Buser`, higher tier users have higher stats, but are more progressively more vulnerable to `Bupgrade` `Bscript`s while `Bbreach`ed.
+    The level of a `Buser`, higher tier users have higher stats, but are progressively more vulnerable to `Bupgrade` `Bscript`s while `Bbreach`ed.
 
 `Auninit`
     A not yet `Binit`ialised system, `Btier` 0.
